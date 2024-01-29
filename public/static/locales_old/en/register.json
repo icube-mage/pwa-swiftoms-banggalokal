@@ -1,0 +1,22 @@
+{
+    "pageTitle": "Request New Vendor",
+    "success": "Congratulation, your registration will be processed immediately.",
+    "required": "Required!",
+    "emailNotValid": "Email not valid!",
+    "passwordMustMatch": "Passwords must match",
+    "requestNewVendor": "Request New Vendor",
+    "firstName": "FIRST NAME",
+    "lastName": "LAST NAME",
+    "email": "EMAIL",
+    "password": "PASSWORD",
+    "confirmPassword": "CONFIRM PASSWORD",
+    "address": "ADDRESS",
+    "country": "COUNTRY",
+    "province": "PROVINCE",
+    "city": "CITY",
+    "telephone": "TELEPHONE",
+    "companyCode": "COMPANY CODE",
+    "company": "COMPANY",
+    "submitRequest": "SUBMIT REQUEST",
+    "backToLoginPage": "Back to Login Page"
+}

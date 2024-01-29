@@ -1,0 +1,123 @@
+{
+    "manageMarketplace": {
+        "pageTitle": "Manage Marketplace"
+    },
+    "marketplaceWarehouse": {
+        "pageTitle": "Marketplace Warehouse"
+    },
+    "editMarketplaceWarehouse": {
+        "pageTitle": "Edit Marketplace Warehouse"
+    },
+    "marketplaceProductCategory": {
+        "pageTitle": "Marketplace Product Category"
+    },
+    "updateCategoriesStatus": {
+        "pageTitle": "Update Categories Status"
+    },
+    "marketplaceProductAttributeMapping": {
+        "pageTitle": "Marketplace Product Attribute Mapping"
+    },
+    "marketplaceProductStatus": {
+        "pageTitle": "Marketplace Product Status"
+    },
+    "marketplaceProductPrice": {
+        "pageTitle": "Marketplace Product Price"
+    },
+    "marketplaceProductPriceImport": {
+        "pageTitle": "Marketplace Product Price Import"
+    },
+    "marketplaceProductPromo": {
+        "pageTitle": "Marketplace Product Promo"
+    },
+    "marketplaceProductPromoItem": {
+        "pageTitle": "Marketplace Product Promo Item"
+    },
+    "marketplaceCode": "Marketplace Code",
+    "marketplaceName": "Marketplace Name",
+    "id": "ID",
+    "channel": "Channel",
+    "marketplaceWarehouseId": "Marketplace Warehouse ID",
+    "location": "Location",
+    "action": "Action",
+    "edit": "Edit",
+    "addWarehouse": "Add Warehouse",
+    "successSaveWarehouse": "Warehouse has been saved.",
+    "required": "Required!",
+    "dataNotFound": "Data not found!",
+    "submit": "Submit",
+    "successSaveNewWarehouse": "New Warehouse has been saved.",
+    "marketplace": "Marketplace",
+    "categoryId": "Category ID",
+    "categoryName": "Category Name",
+    "disable": "Disable",
+    "confirmDisable": "Are you sure you want to disable?",
+    "successDisable": "Disable success!",
+    "processInProgress": "Process is in progress, please wait. Check the progress",
+    "here": "here",
+    "pullCategories": "Pull Categories",
+    "updateStatus": "Update Status",
+    "successSaveCategory": "The category has been saved.",
+    "attachFile": "Attach File",
+    "downloadSampleCsv": "Download the Sample CSV",
+    "pleaseSelectTheFile": "Please select the file",
+    "marketplaceCategory": "Marketplace Category",
+    "marketplaceAttributeName": "Marketplace Attribute Name",
+    "attributeCode": "Attribute Code",
+    "idFrom": "ID From",
+    "idTo": "ID To",
+    "deleteMapping": "Delete Mapping",
+    "addNewMapping": "Add New Mapping",
+    "exportMarketplaceProductAttributes": "Export Marketplace Product Attributes",
+    "importMapping": "Import Mapping",
+    "successSaveNewMapping": "New mapping has been saved.",
+    "minimum": "Minimum",
+    "maximum": "Maximum",
+    "variantAttribute": "variant attribute",
+    "variantAttributeNeedMapping": "variant attribute need mapping",
+    "pleaseRemove": "Please remove",
+    "newMapping": "New Mapping",
+    "marketplaceData": "Marketplace Data" ,
+    "category": "Category",
+    "selectMarketplaceFirst": "Select Marketplace First",
+    "productAttributes": "Product Attributes",
+    "selectCategoryFirst": "Select Category First",
+    "showMandatoryAttribute": "Show mandatory attribute",
+    "inputType": "Input Type",
+    "mappingTo": "Mapping To",
+    "productAttribute": "Product Attribute",
+    "listOfMandatoryAttributes": "List of mandatory attributes (need mapping)",
+    "no":  "No",
+    "sku": "SKU",
+    "marketplaceStoreId": "Marketplace Store ID",
+    "marketplaceStatus": "Marketplace Status",
+    "status": "Status",
+    "message": "Message",
+    "updatedAt": "Updated At",
+    "updatedFrom": "Updated From",
+    "updatedTo": "Updated To",
+    "channelCode": "Channel Code",
+    "price": "Price",
+    "updateToMarketplace": "Update to marketplace",
+    "confirmUpdateToMarketplace": "Are you sure you want to update?",
+    "successUpdatePrice": "The price has been updated to the marketplace.",
+    "import": "Import",
+    "successUploadMarketplaceProduct": "Marketplace product price has been uploaded",
+    "channelStoreId": "Channel Store ID",
+    "promoName": "Promo Name",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "startDateFrom": "Start Date From",
+    "startDateTo": "Start Date To",
+    "endDateFrom": "End Date From",
+    "endDateTo": "End Date To",
+    "view": "View",
+    "discountType": "Discount Type",
+    "discountValue": "Discount Value",
+    "maxOrder": "Max Order",
+    "updatedAtFrom": "Updated At From",
+    "updatedAtTo": "Updated At To",
+    "syncToMarketplace": "Sync to Marketplace",
+    "delete": "Delete",
+    "successDelete": "The product price has been deleted",
+    "successSync": "Product price sync to marketplace successfully"
+}

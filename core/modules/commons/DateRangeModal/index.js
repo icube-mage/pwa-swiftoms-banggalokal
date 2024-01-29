@@ -1,0 +1,219 @@
+/* eslint-disable no-useless-escape */
+/* eslint-disable no-shadow */
+/* eslint-disable max-len */
+/* eslint-disable no-unused-expressions */
+/* eslint-disable prefer-destructuring */
+import clsx from 'clsx';
+import { breakPointsUp } from '@helper_theme';
+import dayjs from 'dayjs';
+
+import Dialog from '@material-ui/core/Dialog';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import IconButton from '@material-ui/core/IconButton';
+import CloseIcon from '@material-ui/icons/Close';
+import {
+    StaticDateRangePicker,
+    LocalizationProvider,
+    StaticDatePicker,
+} from '@material-ui/pickers';
+import DateFnsUtils from '@material-ui/pickers/adapter/date-fns';
+
+import TextField from '@common_textfield';
+import Button from '@common_button';
+import useStyles from '@common_daterangemodal/style';
+
+const DateModal = (props) => {
+    const {
+        t, open, setOpen, handleDateChange, minDate, maxDate, showPeriod = true,
+        disableFuture = false, buttonText = t('sellerreview:Apply'), title = t('sellerreview:Period'),
+    } = props;
+    const classes = useStyles();
+    const isDesktop = breakPointsUp('sm');
+
+    const [selected, setSelected] = React.useState([null, null]);
+    const [showMonth, setShowMonth] = React.useState(false);
+    const [enableWeek, setEnableWeek] = React.useState(false);
+    const value = '';
+    const nowToday = new Date();
+    const nowTodayMonth = dayjs(nowToday).get('month');
+    const nowTodayYear = dayjs(nowToday).get('year');
+
+    const handleClose = () => {
+        setOpen(false);
+        setSelected([null, null]);
+        setShowMonth(false);
+        setEnableWeek(false);
+    };
+
+    const handlePeriod = (time) => {
+        const today = new Date();
+        const days7 = new Date(Date.now() - 7 * (3600 * 1000 * 24));
+        const days30 = new Date(Date.now() - 30 * (3600 * 1000 * 24));
+
+        setEnableWeek(false);
+        if (time === 'today') {
+            setSelected([today, today]);
+            setShowMonth(false);
+        } else if (time === 'seven') {
+            setSelected([days7, today]);
+            setShowMonth(false);
+        } else if (time === 'thirty') {
+            setSelected([days30, today]);
+            setShowMonth(false);
+        } else {
+            const convertMonth = dayjs(time).get('month');
+            const convertYear = dayjs(time).get('year');
+            const startMonth = new Date(convertYear, convertMonth, 1);
+            const endMonth = new Date(convertYear, convertMonth + 1, 0);
+            if (convertMonth > nowTodayMonth && convertYear === nowTodayYear) {
+                setSelected([null, null]);
+            } else {
+                (convertMonth === nowTodayMonth && convertYear === nowTodayYear) ? setSelected([startMonth, nowToday]) : setSelected([startMonth, endMonth]);
+            }
+        }
+    };
+
+    const handleNewDate = (e) => {
+        if (enableWeek) {
+            let useDate = null;
+            if (dayjs(e[0]).format() < dayjs(selected[0]).format()) {
+                useDate = e[0];
+            } else if (e[1]) {
+                useDate = e[1];
+            } else {
+                useDate = e[0];
+            }
+            const today = new Date();
+            let endDate = new Date(dayjs(useDate).day(6).format());
+            if (endDate > today) {
+                endDate = today;
+            }
+            setSelected([dayjs(useDate).day(0).format(), dayjs(endDate).format()]);
+        } else {
+            setSelected(e);
+            if (selected.every((e) => e !== null)) {
+                setSelected([e[0], null]);
+            }
+        }
+    };
+
+    const disabledButton = selected[0] === null;
+
+    const doneSelectDate = () => {
+        const date = [dayjs(selected[0]).format('YYYY-MM-DD'),
+            selected[1] ? dayjs(selected[1]).format('YYYY-MM-DD') : dayjs(selected[0]).format('YYYY-MM-DD'),
+        ];
+        handleDateChange(date);
+        setOpen(false);
+    };
+
+    return (
+        <Dialog
+            open={open}
+            onClose={handleClose}
+            classes={{ paper: classes.dialogContainer }}
+        >
+            <DialogTitle className={classes.dialogTitleContainer}>
+                {title}
+            </DialogTitle>
+            <IconButton className={classes.closeButtonDialog} onClick={handleClose}>
+                <CloseIcon />
+            </IconButton>
+            <DialogContent className={clsx(classes.content, 'two-columns')}>
+                <LocalizationProvider dateAdapter={DateFnsUtils}>
+                    {!showMonth
+                        && (
+                            <StaticDateRangePicker
+                                displayStaticWrapperAs={isDesktop ? 'desktop' : 'mobile'}
+                                disableFuture={disableFuture}
+                                showToolbar={false}
+                                minDate={minDate ? selected[0] && (selected.every((e) => e !== null) ? null : dayjs(selected[0]).subtract(minDate, 'day').format()) : null}
+                                maxDate={maxDate ? selected[0] && (selected.every((e) => e !== null) ? null : dayjs(selected[0]).add(maxDate, 'day').format()) : null}
+                                value={selected}
+                                onChange={(e) => {
+                                    handleNewDate(e);
+                                }}
+                                renderInput={(startProps, endProps) => (
+                                    <>
+                                        <TextField {...startProps} />
+                                        <TextField {...endProps} />
+                                    </>
+                                )}
+                            />
+                        )}
+                    {showMonth
+                        && (
+                            <StaticDatePicker
+                                orientation="potrait"
+                                displayStaticWrapperAs="desktop"
+                                openTo="month"
+                                value={value}
+                                views={['year', 'month']}
+                                minDate={minDate}
+                                maxDate={maxDate}
+                                onChange={(e) => handlePeriod(e)}
+                                renderInput={(props) => <TextField {...props} />}
+                            />
+                        )}
+                </LocalizationProvider>
+                {showPeriod
+                    && (
+                        <div className={classes.divPeriod}>
+                            <h3>{t('sellerreview:Time_Period')}</h3>
+                            <div className={classes.btnGrid}>
+                                <Button className={classes.btnTime} onClick={() => handlePeriod('today')}>
+                                    {t('sellerreview:Today')}
+                                </Button>
+                                <Button className={classes.btnTime} onClick={() => handlePeriod('seven')}>
+                                    {t('sellerreview:Last_7_days')}
+                                </Button>
+                                <Button className={classes.btnTime} onClick={() => handlePeriod('thirty')}>
+                                    {t('sellerreview:Last_30_days')}
+                                </Button>
+                                <hr />
+                                <Button
+                                    className={clsx(classes.btnTime, enableWeek ? 'focus' : null)}
+                                    onClick={() => {
+                                        setSelected([null, null]);
+                                        setEnableWeek(true);
+                                        setShowMonth(false);
+                                    }}
+                                >
+                                    {t('sellerreview:Per_week')}
+                                </Button>
+                                <Button
+                                    className={clsx(classes.btnTime, showMonth ? 'focus' : null)}
+                                    onClick={() => {
+                                        setShowMonth(true);
+                                        setEnableWeek(false);
+                                    }}
+                                >
+                                    {t('sellerreview:Per_month')}
+                                </Button>
+                            </div>
+                        </div>
+                    )}
+            </DialogContent>
+            <DialogContent className={classes.contentBottom}>
+                <div>
+                    <Button
+                        disabled={disabledButton}
+                        className={clsx(classes.btnDone, disabledButton && 'disabled')}
+                        onClick={doneSelectDate}
+                    >
+                        {buttonText}
+                    </Button>
+                    <div className={classes.infoDateRange}>
+                        {selected[0] !== null
+                            && <span>{dayjs(selected[0]).format('DD MMMM YYYY')}</span>}
+                        {(selected[1] !== null)
+                            && <span>{` - ${dayjs(selected[1]).format('DD MMMM YYYY')}`}</span>}
+                    </div>
+                </div>
+            </DialogContent>
+        </Dialog>
+    );
+};
+
+export default DateModal;

@@ -1,0 +1,13 @@
+<svg id="Group_6675" data-name="Group 6675" xmlns="http://www.w3.org/2000/svg" width="102.426" height="49.434" viewBox="0 0 102.426 49.434">
+  <path id="Path_3560" data-name="Path 3560" d="M96.59,41.412H5.836A5.854,5.854,0,0,1,0,35.576V5.836A5.854,5.854,0,0,1,5.836,0H96.59a5.854,5.854,0,0,1,5.836,5.836v29.74a5.854,5.854,0,0,1-5.836,5.836" fill="#5f12a6"/>
+  <path id="Path_3561" data-name="Path 3561" d="M25.714,88.79a1.346,1.346,0,0,1-2.331,0l-2.551-4.42-2.551-4.419a1.346,1.346,0,0,1,1.165-2.019H29.651a1.346,1.346,0,0,1,1.165,2.019L28.265,84.37Z" transform="translate(-9.295 -40.029)" fill="#5f12a6"/>
+  <g id="Group_6676" data-name="Group 6676" transform="translate(0 -2.026)">
+    <line id="Line_685" data-name="Line 685" x2="46.96" transform="translate(45.314 12.658)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_686" data-name="Line 686" x2="46.96" transform="translate(45.314 19.348)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_687" data-name="Line 687" x2="46.96" transform="translate(45.314 26.037)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_688" data-name="Line 688" x2="23.48" transform="translate(45.314 32.727)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+  <path id="Path_3562" data-name="Path 3562" d="M45.251,30.2A12.347,12.347,0,1,1,32.9,17.858,12.347,12.347,0,0,1,45.251,30.2" transform="translate(-10.559 -9.173)" fill="#fff"/>
+  <path id="Path_3563" data-name="Path 3563" d="M45.5,49.5a10.218,10.218,0,0,1-7.31,3.662c-.185.01-.374.015-.559.015s-.374,0-.559-.015c-.165-.01-.331-.024-.5-.039-.029,0-.058,0-.088-.01A10.228,10.228,0,0,1,29.77,49.5a7.919,7.919,0,0,1,15.734,0" transform="translate(-15.291 -21.825)" fill="#d00097"/>
+  <path id="Path_3564" data-name="Path 3564" d="M45.74,29.606a3.58,3.58,0,1,1-3.58-3.58,3.58,3.58,0,0,1,3.58,3.58" transform="translate(-19.816 -13.368)" fill="#d00097"/>
+</svg>

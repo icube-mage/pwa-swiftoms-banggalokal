@@ -1,0 +1,22 @@
+{
+    "notification": {
+        "pageTitle": "Manage Notification"
+    },
+    "allNotificationWasRead": "All Notification was read",
+    "id": "ID",
+    "createdAt": "Created At",
+    "type": "Type",
+    "status": "Status",
+    "messages": "Messages",
+    "attachment": "Attachment",
+    "idFrom": "ID From",
+    "idTo": "ID To",
+    "createdAtFrom": "Created at From",
+    "createdAtTo": "Created at To",
+    "markAsRead": "Mark as Read",
+    "confirmContinue": "Are you sure you want to continue?",
+    "download": "Download",
+    "read": "Read",
+    "unread": "Unread",
+    "markAllAsRead": "Mark All As Read"
+}

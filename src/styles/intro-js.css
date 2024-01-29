@@ -1,0 +1,78 @@
+.tooltip-container {
+    max-width: 400px !important;
+    min-width: 350px !important;
+    border-radius: 15px !important;
+    
+}
+
+.tooltip-container .introjs-tooltip-header {
+    padding-top: 20px;
+}
+.tooltip-container .introjs-tooltip-title {
+    color: #BE1F93;
+}
+.tooltip-container .introjs-skipbutton {
+    top: 10px;
+}
+
+.tooltip-container .introjs-tooltiptext {
+    font-size: 18px;
+    padding: 25px 20px;
+}
+
+.tooltip-container .introjs-helperNumberLayer {
+    display: inline-block;
+    padding: 20px;
+}
+
+.tooltip-container .introjs-button:focus {
+    box-shadow: none;
+}
+
+.tooltip-container .introjs-tooltipbuttons {
+    float: right;
+    padding: 10px 20px;
+    border-top: 0;
+}
+.tooltip-container .introjs-tooltipbuttons a {
+    margin-left: 20px;
+    border: 0;
+    background-color: unset;
+    padding: 0;
+}
+.tooltip-container .introjs-tooltipbuttons a img {
+    width: 20px;
+    height: 20px;
+}
+.tooltip-container .introjs-tooltipbuttons a img.arrow-left {
+    transform: rotate(180deg);
+}
+
+.introjs-hints a.introjs-hint {
+    z-index: 9999;
+}
+
+.introjs-hintReference .introjs-tooltip {
+    background-color: #1E272E;
+}
+.introjs-hintReference .introjs-tooltip .introjs-arrow{
+    border-bottom-color: #1E272E;
+}
+
+.introjs-hintReference .introjs-tooltiptext p {
+    color: #FFFFFF;
+    margin: 0;
+}
+.introjs-hintReference .introjs-tooltiptext .introjs-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: unset;
+    border: 0;
+    color: white;
+    text-shadow: none;
+}
+.introjs-hintReference .introjs-tooltiptext .introjs-button:hover {
+    background-color: unset;
+    color: white;
+}

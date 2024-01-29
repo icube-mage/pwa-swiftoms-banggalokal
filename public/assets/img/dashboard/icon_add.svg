@@ -1,0 +1,12 @@
+<svg id="add" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.376" height="18" viewBox="0 0 17.376 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1340" data-name="Rectangle 1340" width="17.376" height="18" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3455" data-name="Group 3455" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <rect id="Rectangle_1339" data-name="Rectangle 1339" width="10.58" height="10.58" rx="1.5" transform="translate(6.143 6.768)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_1755" data-name="Path 1755" d="M14.483,7.319V5.557a1.288,1.288,0,0,0-1.289-1.289h-8A1.288,1.288,0,0,0,3.9,5.557v7.993A1.288,1.288,0,0,0,5.191,14.84H6.652" transform="translate(-0.507 -0.555)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_1756" data-name="Path 1756" d="M3.492,11.323H2.039A1.288,1.288,0,0,1,.75,10.034V2.039A1.288,1.288,0,0,1,2.039.75h7.994a1.288,1.288,0,0,1,1.289,1.289V3.811" transform="translate(-0.098 -0.098)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

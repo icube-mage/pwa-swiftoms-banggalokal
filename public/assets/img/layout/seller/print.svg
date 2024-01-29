@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.08" height="20.019" viewBox="0 0 20.08 20.019">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2221" data-name="Rectangle 2221" width="20.08" height="20.019" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Print" transform="translate(0 0)">
+    <g id="Group_3815" data-name="Group 3815" clip-path="url(#clip-path)">
+      <path id="Path_2041" data-name="Path 2041" d="M16,14.959h1.33a2.006,2.006,0,0,0,2-2V7.609a2,2,0,0,0-2-2H2.75a1.993,1.993,0,0,0-2,2v5.35a2,2,0,0,0,2,2H4.08" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_2042" data-name="Path 2042" d="M16,5.609H4.081V2.75a2,2,0,0,1,2-2H14a2,2,0,0,1,2,2Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_2043" data-name="Path 2043" d="M4.081,12.032H16v5.236a2,2,0,0,1-2,2H6.081a2,2,0,0,1-2-2Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_500" data-name="Line 500" x2="3.743" transform="translate(8.168 14.68)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_501" data-name="Line 501" x2="1.872" transform="translate(3.04 8.338)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_502" data-name="Line 502" x2="3.743" transform="translate(8.168 17.099)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_503" data-name="Line 503" x2="14" transform="translate(3.04 12.032)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

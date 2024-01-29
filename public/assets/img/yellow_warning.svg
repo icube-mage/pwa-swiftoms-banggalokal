@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_353" data-name="Rectangle 353" width="16" height="16" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Icon" clip-path="url(#clip-path)">
+    <path id="Primary_fill" data-name="Primary fill" d="M24,16a8,8,0,1,0,8,8A8.009,8.009,0,0,0,24,16Zm-.8,4.8a.8.8,0,0,1,1.6,0V24a.8.8,0,0,1-1.6,0ZM24,28a.8.8,0,1,0-.8-.8A.8.8,0,0,0,24,28Z" transform="translate(-16 -16)" fill="#b98900" fill-rule="evenodd"/>
+  </g>
+</svg>

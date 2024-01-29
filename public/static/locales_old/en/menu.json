@@ -1,0 +1,134 @@
+{
+    "menuDashboard": {
+        "dashboard": "Dashboard"
+    },
+    "menuOrder": {
+        "parent": "Order",
+        "allOrders": "All Orders",
+        "allocating": "Allocating",
+        "failed": "Failed",
+        "orderProcessing": "Order Processing",
+        "shipmentProcessing": "Shipment Processing",
+        "completed": "Completed",
+        "canceled": "Canceled",
+        "invoice": "Invoice",
+        "bulkTools": "Bulk Tools",
+        "exportOrder": "Export Order"
+    },
+    "menuPickPack": {
+        "parent": "Pick And Pack",
+        "pickList": "Pick List",
+        "createPickByWave": "Create Pick by Wave",
+        "packList": "Pack List",
+        "batchList": "Batch List",
+        "createPickByBatch": "Create Pick By Batch"
+    },
+    "menuShipment": {
+        "parent": "Shipment",
+        "allShipment": "All Shipment",
+        "storePickup": "Store Pickup",
+        "curbsidePickup": "Curbside Pickup",
+        "homeDelivery": "Home Delivery",
+        "marketplace": "Marketplace"
+    },
+    "menuReturn": {
+        "parent": "Return",
+        "creditMemos": "Credit Memos",
+        "manageRma": "Manage RMA",
+        "rmaStatuses": "RMA Statuses"
+    },
+    "menuCatalog": {
+        "parent": "Catalog",
+        "products": "Products",
+        "productBundle": "Product Bundle",
+        "productBin": "Product Bin",
+        "productBulkTools": "Product Bulk Tools"
+    },
+    "menuInventory": {
+        "parent": "Inventory",
+        "manageStock": "Manage Stock",
+        "channelStockSummary": "Channel Stock Summary",
+        "stockTransfer": "Stock Transfer",
+        "stockAdjustment": "Stock Adjustment",
+        "managePrice": "Manage Price",
+        "updateStockHistory": "Update Stock History",
+        "inventoryAuditTrail": "Inventory Audit Trail"
+    },
+    "menuMarketplace": {
+        "parent": "Marketplace",
+        "marketplace": "Marketplace",
+        "warehouse": "Warehouse",
+        "productCategory": "Product Category",
+        "productAttributeMapping": "Product Attribute Mapping",
+        "productStatus": "Product Status",
+        "productPrice": "Product Price",
+        "productPromo": "Product Promo"
+    },
+    "menuMaster": {
+        "parent": "Masters",
+        "company": "Company",
+        "channel": "Channel",
+        "virtualStock": "Virtual Stock",
+        "location": "Location",
+        "locationPickup": "Location Pickup",
+        "virtualLocation": "Virtual Location",
+        "locationZone": "Location Zone",
+        "priorityLocationByZone": "Priority Location by Zone",
+        "priorityLocationByCity": "Priority Location by City"
+    },
+    "menuIntegration": {
+        "parent": "Integration",
+        "ecommerceChannel": "Ecommerce Channel",
+        "offlineChannel": "Offline Channel"
+    },
+    "menuVendor": {
+        "parent": "Vendor",
+        "manageVendorRequest": "Manage Vendor Request",
+        "manageVendor": "Manage Vendor",
+        "productBulkTools": "Product Bulk Tools",
+        "productApproval": "Product Approval",
+        "managePromotion": "Manage Promotion",
+        "irisPayout": "Iris Payout",
+        "irisPayoutApproval": "Iris Payout Approval"
+    },
+    "menuReport": {
+        "parent": "Report",
+        "orderReport": "Order Report",
+        "orderSLIReport": "Order SLI Report"
+    },
+    "menuTools": {
+        "parent": "Tools",
+        "cliTools": "CLI Tools"
+    },
+    "menuConfiguration": {
+        "parent": "Configurations",
+        "integration": "Integration",
+        "general": "General",
+        "product": "Product",
+        "inventory": "Inventory",
+        "priceByLocation": "Price By Location",
+        "order": "Order",
+        "invoice": "Invoice",
+        "shipment": "Shipment",
+        "return": "Return",
+        "logistix": "Logistix",
+        "logistixProvider": "Logistix Provider",
+        "pickPack": "Pick Pack",
+        "marketplaceAdapter": "Marketplace Adapter",
+        "marketplaceFeature": "Marketplace Feature",
+        "regionMapping": "Region Mapping",
+        "taxRules": "Tax Rules",
+        "acceptanceDeadline": "Acceptance Deadline",
+        "vendor": "Vendor",
+        "tada": "TADA",
+        "user": "User",
+        "notification": "Notification",
+        "openApi": "Open API",
+        "emailTemplate": "Email Templates"
+    },
+    "menuUser": {
+        "parent": "User",
+        "allUsers": "All Users",
+        "userGroup": "User Group"
+    }
+}

@@ -1,0 +1,215 @@
+{
+    "integrations": {
+        "pageTitle": "Integrations Configuration",
+        "token": "Token",
+        "regenerate": "Re Generate",
+        "required": "Required!"
+    },
+    "general": {
+        "pageTitle": "General Configuration"
+    },
+    "product": {
+        "pageTitle": "Product Configuration"
+    },
+    "inventory": {
+        "pageTitle": "Inventory Configuration"
+    },
+    "priceByLocation": {
+        "pageTitle": "Price by Location Configuration"
+    },
+    "order": {
+        "pageTitle": "Order Configuration"
+    },
+    "invoice": {
+        "pageTitle": "Invoice Configuration"
+    },
+    "shipment": {
+        "pageTitle": "Shipment Configuration"
+    },
+    "return": {
+        "pageTitle": "Return Configuration"
+    },
+    "logistix": {
+        "pageTitle": "Logistix Configuration"
+    },
+    "logistixProvider": {
+        "pageTitle": "Logistix Provider Configuration",
+        "addLogistixProvider": "Add Logistix Provider",
+        "addNewLogistixProvider": "Add New Logistix Provider",
+        "saveLogistixProvider": "Logistix Provider has been saved.",
+        "required": "Required!"
+    },
+    "pickPack": {
+        "pageTitle": "Pick Pack Configuration",
+        "savePickPack": "Configuration saved successfully.",
+        "numberOfSlotPerPicker": "Number of Slots per Picker",
+        "numberOfSlotPerSlots": "Number of Slots per Slots",
+        "confirmPickWithoutBarcode": "Allow Confirm Pick Without Scan Barcode",
+        "useCameraToScanBarcode": "Use Camera To Scan Barcode",
+        "waveNumberResetMethod": "Wave Number Reset Method",
+        "waveNumberPrefix": "Wave Number Prefix",
+        "pickByBatch": "Pick by Batch",
+        "numberOfItemsPerSlots": "Number of Items per Slots",
+        "sortingMethod": "Sorting Method",
+        "batchNumberResetMethod": "Batch Number Reset Method",
+        "batchNumberPrefix": "Batch Number Prefix",
+        "pickListNumberResetMethod": "Pick List Number Reset Method",
+        "pickListNumberPrefix": "Pick List Number Prefix"
+    },
+    "marketplaceAdapter": {
+        "pageTitle": "Marketplace Adapter Configuration"
+    },
+    "marketplaceFeature": {
+        "pageTitle": "Marketplace Feature Configuration",
+        "saveMarketplaceFeature": "The marketplace feature has been saved.",
+        "marketplaceFeature": "Marketplace Feature",
+        "marketplaceFeatureCode": "Marketplace Feature Code",
+        "addFeatures": "Add Features"
+    },
+    "regionMapping": {
+        "pageTitle": "Region Mapping Configuration",
+        "saveNewMapping": "New Mapping has been saved.",
+        "editMapping": "Edit Region Mapping",
+        "addNewMapping": "Add New Region Mapping",
+        "channelCode": "Channel Code",
+        "code": "Code",
+        "createdTo": "Created To",
+        "createdFrom": "Created From",
+        "createdAt": "Created At",
+        "regionRaw": "Region Raw",
+        "idFrom": "ID From",
+        "idTo": "ID To",
+        "country": "Country",
+        "regionCode": "Region Code",
+        "required": "This field is Required!"
+    },
+    "vendor": {
+        "pageTitle": "Vendor Configuration"
+    },
+    "tada": {
+        "pageTitle": "TADA Configuration"
+    },
+    "user": {
+        "pageTitle": "User Configuration"
+    },
+    "notification": {
+        "pageTitle": "Notification Configuration"
+    },
+    "openApi": {
+        "pageTitle": "Open API Configuration"
+    },
+    "taxRules": {
+        "pageTitle": "Tax Rules Configuration",
+        "title": "Tax Rules",
+        "table": {
+            "name": "Name",
+            "custClass": "Customer Tax Class",
+            "prodClass": "Product Tax Class",
+            "taxRate": "Tax Rate",
+            "priority": "Priority",
+            "subtotalOnly": "Subtotal Only",
+            "sortOrder": "Sort Order",
+            "action": "Action",
+            "view": "View"
+        },
+        "addNew": "Add New Tax Rule",
+        "formPage": {
+            "addTitle": "New Tax Rule",
+            "editTitle": "Edit Tax Rule",
+            "save": "Save Rule",
+            "generalInfo": "General Information",
+            "additionalSettings": "Additional Settings",
+            "form": {
+                "name": "Name",
+                "taxRate": "Tax Rate",
+                "custClass": "Customer Tax Class",
+                "prodClass": "Product Tax Class",
+                "priority": "Priority",
+                "subtotalOnly": "Calculate Off Subtotal Only",
+                "sortOrder": "Sort Order",
+                "addClass": "Add New Tax Class",
+                "addRate": "Add New Tax Rate",
+                "confirmation": "Confirmation",
+                "confirmRate": "Do you really want to delete this tax rate?",
+                "confirmClass": "Do you really want to delete this tax class?"
+            },
+            "modalForm": {
+                "taxRate": "Tax Rate",
+                "taxIdentifier": "Tax Identifier",
+                "zipRange": "Zip/Post is Range",
+                "rangeFrom": "Range From",
+                "rangeTo": "Range To",
+                "zip": "Zip/Post Code",
+                "country": "Country",
+                "state": "State",
+                "ratePercent": "Rate Percent",
+                "submit": "Submit",
+                "cancel": "Cancel"
+            }
+        }
+    },
+    "accDead": {
+        "pageTitle": "Acceptance Deadline",
+        "addNew": "Add Acceptance Deadline",
+        "import": "Import Acceptance Deadline",
+        "channel": "Channel",
+        "deadline": "Acceptance Deadline (in hour)",
+        "addPageTitle": "Add Acceptance Deadline",
+        "editPageTitle": "Edit Acceptance Deadline",
+        "shippingMethod": "Shipping Method",
+        "successEdit": "Acceptance Deadline has been saved!",
+        "successCreate": "Acceptance Deadline has been created!"
+    },
+    "emailTemplate": {
+        "pageTitle": "Email Templates",
+        "template": "Template",
+        "idFrom": "ID From",
+        "idTo": "ID To",
+        "added": "Added",
+        "addedFrom": "Added From",
+        "addedTo": "Added To",
+        "updated": "Updated",
+        "updatedFrom": "Updated From",
+        "updatedTo": "Updated To",
+        "subject": "Subject",
+        "templateType": "Template Type",
+        "addNew": "Add New Template",
+        "editTitle": "Edit Template",
+        "loadDefaultTemplate": "Load Default Template",
+        "loadTemplate": "Load Template",
+        "templateInformation": "Template Information",
+        "templateName": "Template Name",
+        "templateSubject": "Template Subject",
+        "insertVariable": "Insert Variable",
+        "templateContent": "Template Content",
+        "templateStyles": "Template Styles",
+        "successMessage": "Email Template has been successfully saved.",
+        "errorMessage": "Something went wrong while trying to save email template.",
+        "templatePreview": "Template Preview",
+        "errorMessageLoadTemplate": "Something went wrong while trying to show template preview."
+    },
+    "loading": "Loading...",
+    "dataNotFound": "Data not found!",
+    "submit": "Submit",
+    "useSystemValue": "Use system value",
+    "noFileChosen": "No file chosen",
+    "delete": "Delete",
+    "oldFile": "Old file:",
+    "newFile": "New file:",
+    "action": "Action",
+    "add": "Add",
+    "id": "ID",
+    "channelShippingMethod": "Channel Shipping Method",
+    "provider": "Provider",
+    "service": "Service",
+    "view": "View",
+    "desc": "DESC",
+    "yes": "Yes",
+    "no": "No",
+    "singleItem": "Single Item",
+    "multipleItem": "Multiple Item",
+    "default": "Default",
+    "everyDay": "Every Day",
+    "everyBatch": "Every Batch",
+    "enable": "Enable"
+}

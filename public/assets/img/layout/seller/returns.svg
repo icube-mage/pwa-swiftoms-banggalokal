@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+    height="24px" viewBox="0 0 24 24" version="1.1">
+    <g id="surface1">
+        <path
+            style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;"
+            d="M 38.170345 53.337451 L 20.686898 44.564925 L 20.686898 29.644238 L 38.170345 38.404443 Z M 38.170345 53.337451 "
+            transform="matrix(0.317041,0,0,0.317041,0,0)" />
+        <path
+            style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;"
+            d="M 38.170345 53.337451 L 55.666113 44.564925 L 55.666113 29.644238 L 38.170345 38.404443 Z M 38.170345 53.337451 "
+            transform="matrix(0.317041,0,0,0.317041,0,0)" />
+        <path
+            style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;"
+            d="M 38.170345 38.404443 L 20.686898 29.644238 L 38.170345 21.081169 L 55.666113 29.644238 Z M 38.170345 38.404443 "
+            transform="matrix(0.317041,0,0,0.317041,0,0)" />
+        <path
+            style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;"
+            d="M 65.547526 14.304639 C 70.944108 20.649935 74.196842 28.868018 74.196842 37.85 C 74.196842 57.933171 57.933171 74.196842 37.85 74.196842 C 31.640234 74.196842 25.800098 72.644401 20.686898 69.896826 "
+            transform="matrix(0.317041,0,0,0.317041,0,0)" />
+        <path
+            style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;"
+            d="M 10.152474 61.395361 C 4.755892 55.050065 1.503158 46.831982 1.503158 37.85 C 1.503158 17.766829 17.766829 1.503158 37.85 1.503158 C 44.059766 1.503158 49.899902 3.055599 55.013102 5.803174 "
+            transform="matrix(0.317041,0,0,0.317041,0,0)" />
+        <path
+            style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;"
+            d="M 67.543522 10.965658 L 59.547217 10.312646 L 62.984766 17.557373 "
+            transform="matrix(0.317041,0,0,0.317041,0,0)" />
+        <path
+            style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;"
+            d="M 8.760205 65.251823 L 16.744189 65.904834 L 13.318962 58.647786 "
+            transform="matrix(0.317041,0,0,0.317041,0,0)" />
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_3956" data-name="Group 3956" transform="translate(-297 -670)">
+    <g id="Rectangle_1260" data-name="Rectangle 1260" transform="translate(297 670)" fill="#f3f4fa" stroke="#b1bcda" stroke-width="1">
+      <rect width="24" height="24" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" fill="none"/>
+    </g>
+    <g id="image" transform="translate(303.077 678.102)">
+      <rect id="Rectangle_1272" data-name="Rectangle 1272" width="11.242" height="7.461" transform="translate(0.051 0.32)" fill="#fff"/>
+      <path id="Path_101" data-name="Path 101" d="M8.951-20.5H-1.63A.368.368,0,0,1-2-20.9V-28.2a.382.382,0,0,1,.37-.4h10.6a.381.381,0,0,1,.37.4V-20.9A.4.4,0,0,1,8.951-20.5ZM-1.63-28.225a.049.049,0,0,0-.044.047V-20.9a.049.049,0,0,0,.044.047h10.6a.049.049,0,0,0,.044-.047V-28.2a.049.049,0,0,0-.044-.047H-1.63Z" transform="translate(2 28.6)" fill="#68779f"/>
+      <path id="Path_102" data-name="Path 102" d="M4674.013,942.626h0a1.01,1.01,0,0,1-1.013-1.013,1.013,1.013,0,1,1,1.013,1.013Zm-.022-.22Z" transform="translate(-4664.898 -939.385)" fill="#68779f"/>
+      <path id="Polygon_20" data-name="Polygon 20" d="M3.848,0,7.7,5.266H0Z" transform="translate(0.405 2.704)" fill="#68779f"/>
+      <path id="Polygon_21" data-name="Polygon 21" d="M2.431,0,4.861,3.241H0Z" transform="translate(6.077 4.73)" fill="#68779f"/>
+    </g>
+  </g>
+</svg>

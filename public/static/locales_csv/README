@@ -1,0 +1,15 @@
+# Translations CSV
+
+To make the `.json` files for internalization translation `i18next` using csv
+
+## Usage
+
+Rename the `.csv` files to the country code based on [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+
+### Format
+
+CSV contains 3 column
+
+    | key | text | module |
+
+*Note: If specific module is not defined, leave it blank*

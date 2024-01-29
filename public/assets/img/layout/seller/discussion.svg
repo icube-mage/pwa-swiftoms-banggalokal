@@ -1,0 +1,22 @@
+<svg id="_001-chat" data-name="001-chat" xmlns="http://www.w3.org/2000/svg" width="20.807" height="20.807" viewBox="0 0 20.807 20.807">
+  <g id="Group_3388" data-name="Group 3388" transform="translate(3.901 3.901)">
+    <g id="Group_3387" data-name="Group 3387">
+      <path id="Path_1654" data-name="Path 1654" d="M104.453,96h-7.8a.65.65,0,0,0,0,1.3h7.8a.65.65,0,1,0,0-1.3Z" transform="translate(-96 -96)" fill="#b1bcda"/>
+    </g>
+  </g>
+  <g id="Group_3390" data-name="Group 3390" transform="translate(3.901 6.502)">
+    <g id="Group_3389" data-name="Group 3389">
+      <path id="Path_1655" data-name="Path 1655" d="M101.852,160h-5.2a.65.65,0,1,0,0,1.3h5.2a.65.65,0,1,0,0-1.3Z" transform="translate(-96 -160)" fill="#b1bcda"/>
+    </g>
+  </g>
+  <g id="Group_3392" data-name="Group 3392">
+    <g id="Group_3391" data-name="Group 3391">
+      <path id="Path_1656" data-name="Path 1656" d="M14.3,0H2.6A2.6,2.6,0,0,0,0,2.6v13a.65.65,0,0,0,.375.589.66.66,0,0,0,.276.061.65.65,0,0,0,.416-.151L4.787,13H14.3a2.6,2.6,0,0,0,2.6-2.6V2.6A2.6,2.6,0,0,0,14.3,0Zm1.3,10.4a1.3,1.3,0,0,1-1.3,1.3H4.551a.649.649,0,0,0-.416.151L1.3,14.217V2.6A1.3,1.3,0,0,1,2.6,1.3H14.3a1.3,1.3,0,0,1,1.3,1.3Z" fill="#b1bcda"/>
+    </g>
+  </g>
+  <g id="Group_3394" data-name="Group 3394" transform="translate(5.202 5.202)">
+    <g id="Group_3393" data-name="Group 3393">
+      <path id="Path_1657" data-name="Path 1657" d="M141,128a.65.65,0,1,0,0,1.3,1.3,1.3,0,0,1,1.3,1.3v11l-2.2-1.756a.655.655,0,0,0-.406-.142h-9.1a1.3,1.3,0,0,1-1.3-1.3v-.65a.65.65,0,0,0-1.3,0v.65a2.6,2.6,0,0,0,2.6,2.6h8.874l3.073,2.459a.651.651,0,0,0,1.057-.508V130.6A2.6,2.6,0,0,0,141,128Z" transform="translate(-128 -128)" fill="#b1bcda"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.38" height="21.932" viewBox="0 0 22.38 21.932">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2564" data-name="Rectangle 2564" width="22.38" height="21.932" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_6547" data-name="Group 6547" transform="translate(0 0)">
+    <g id="Group_6546" data-name="Group 6546" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_3543" data-name="Path 3543" d="M19.266,8.013v10.22a2.673,2.673,0,0,1-2.673,2.673H5.6a2.673,2.673,0,0,1-2.673-2.673V8.013" transform="translate(0.092 0.253)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_3544" data-name="Path 3544" d="M21.583,6.779,12.316,1.045a2.391,2.391,0,0,0-2.3,0L.75,6.779" transform="translate(0.024 0.024)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_3545" data-name="Path 3545" d="M15.15,15.244V10.423L10.975,8.012,6.8,10.423v4.821l4.175,2.411Z" transform="translate(0.214 0.253)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_3546" data-name="Path 3546" d="M15.15,10.349,10.975,12.76,6.8,10.349" transform="translate(0.214 0.326)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_644" data-name="Line 644" y1="4.821" transform="translate(11.19 13.086)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

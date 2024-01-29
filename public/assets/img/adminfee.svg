@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.5" height="26.5" viewBox="0 0 30.5 26.5">
+  <g id="Admin_Fee" data-name="Admin Fee" transform="translate(-461.083 -123.835)">
+    <circle id="Ellipse_84" data-name="Ellipse 84" cx="9" cy="9" r="9" transform="translate(472.833 131.585)" fill="none" stroke="#68779f" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_1670" data-name="Path 1670" d="M472.833,140.585h-9.005a2,2,0,0,1-1.995-2V126.581a2,2,0,0,1,1.995-2h20.009a2,2,0,0,1,2,2v5.94" fill="none" stroke="#68779f" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_211" data-name="Line 211" x1="24" transform="translate(461.833 129.585)" fill="none" stroke="#68779f" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Group_3411" data-name="Group 3411">
+      <line id="Line_212" data-name="Line 212" x1="4.702" y2="5.421" transform="translate(479.526 137.825)" fill="none" stroke="#68779f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <circle id="Ellipse_85" data-name="Ellipse 85" cx="1.5" cy="1.5" r="1.5" transform="translate(483.554 141.324)" fill="none" stroke="#68779f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <circle id="Ellipse_86" data-name="Ellipse 86" cx="1.5" cy="1.5" r="1.5" transform="translate(477.111 136.846)" fill="none" stroke="#68779f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

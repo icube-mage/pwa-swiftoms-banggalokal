@@ -1,0 +1,83 @@
+{
+    "ecommerceChannel": {
+        "pageTitle": "Ecommerce Channel"
+    },
+    "offlineChannel": {
+        "pageTitle": "Offline Channel"
+    },
+    "integrationWebstore": {
+        "pageTitle": "Integration Webstore"
+    },
+    "integrationMarketplace": {
+        "pageTitle": "Integration Marketplace"
+    },
+    "addChannelPage": {
+        "pageTitle": "Add Channel"
+    },
+    "addOfflineChannel": {
+        "pageTitle": "Add Offline Channel"
+    },
+    "successRemoveChannel": "The channel has been removed.",
+    "successDisconnectChannel": "The channel has been disconnected.",
+    "successReconnectChannel": "The channel has been reconnected.",
+    "errorReconnect": "Error when reconnecting with markeplaces!",
+    "errorCantIntegrate": "Sorry can't continue integration right now, please register the Client Key",
+    "dataNotFound": "Data not found!",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "channelCode": "Channel Code",
+    "brandName": "Brand Name",
+    "noRecordsFound": "No records found",
+    "edit": "Edit",
+    "delete": "Delete",
+    "disconnect": "Disconnect",
+    "reconnect": "Reconnect",
+    "deleteChannel": "Delete Channel",
+    "disconnectChannel": "Disconnect Channel",
+    "confirmDeleteChannel": "Are you sure want to delete this channel?",
+    "confirmDisconnectChannel": "Are you sure want to disconnect this channel?",
+    "search": "Search",
+    "addChannel": "Add Channel",
+    "successIntegrateChannel": "The channel has been successfully integrated.",
+    "errorSomethingWrongCreateChannel": "Error! Something is wrong when create webstore channel!",
+    "required": "This field is Required!",
+    "validateLocation": "Minimum 1 location must be selected!",
+    "errorConnecting": "Error when connecting to markeplaces!",
+    "validateInteger": "Type must be Integer!",
+    "errorIntegrating": "Error when integrating with markeplaces!",
+    "selected": "Selected",
+    "makeSureRegisteredUrlCallbacks": "Make sure you have registered the following url callbacks:",
+    "readMoreDetail": "on your JD.id console. You can read more details",
+    "here": "Here",
+    "selectStore": "SELECT STORE",
+    "createNewStore": "Create New Store",
+    "selectLocation": "SELECT LOCATION",
+    "createNewLocation": "Create New Location",
+    "startIntegration": "Start Integration",
+    "successCreateNewStore": "New Store has been successfully created.",
+    "brandId": "Brand ID",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "integration": "Integration",
+    "successCreateNewLocation": "New Location has been successfully created.",
+    "company": "Company",
+    "code": "Code",
+    "name": "Name",
+    "address": "Address",
+    "country": "Country",
+    "city": "City",
+    "province": "Province",
+    "zipCode": "Zip Code",
+    "telephone": "Telephone",
+    "longitude": "Longitude",
+    "latitude": "Latitude",
+    "marketplaceStore": "Marketplace Store",
+    "webStore": "Webstore",
+    "selectCountry": "Select Country",
+    "noDataFound": "No data found",
+    "channelName": "Channel Name",
+    "registerMpApi": "Register Marketplace API Client Key",
+    "client_name": "Client Name",
+    "successRegisterApi": "Api key has been successfully registered",
+    "errorSomethingRegisterMpApiKey": "Something went wrong while trying register marketplace api key!"
+}
