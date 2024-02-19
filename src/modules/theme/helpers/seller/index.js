@@ -125,6 +125,41 @@ export const optionsSeller = (t) => [
             },
         ],
     },
+    {
+        aclCode: 'seller_store',
+        key: 'pyb',
+        label: t('menu:PYB'),
+        children: [
+            {
+                // aclCode: 'pyb_facebook_ads',
+                aclCode: 'seller_user',
+                key: 'facebookads',
+                label: t('menu:facebook_ads'),
+                url: '/seller/pyb/facebookads',
+            },
+            {
+                // aclCode: 'pyb_facebook_catalog_feed',
+                aclCode: 'seller_user',
+                key: 'facebookcatalogfeed',
+                label: t('menu:facebook_catalog_feed'),
+                url: '/seller/pyb/facebook_catalog_feed',
+            },
+            {
+                // aclCode: 'pyb_google_ads',
+                aclCode: 'seller_user',
+                key: 'googleads',
+                label: t('menu:google_ads'),
+                url: '/seller/pyb/google_ads',
+            },
+            {
+                // aclCode: 'pyb_google_ads',
+                aclCode: 'seller_user',
+                key: 'googlecatalogfeed',
+                label: t('menu:google_catalog_feed'),
+                url: '/seller/pyb/google_catalog_feed',
+            },
+        ],
+    },
 ];
 
 export default optionsSeller;
