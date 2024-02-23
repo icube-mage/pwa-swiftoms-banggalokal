@@ -168,6 +168,18 @@ export const optionsConfigurations = (t) => [
                 label: t('menu:Failed_Reasons'),
                 url: '/configurations/failedreason',
             },
+            {
+                aclCode: 'oms_lite_order_failed_reason',
+                key: 'pybGoogle',
+                label: t('menu:PYB_Google'),
+                url: '/configurations/pybgoogle',
+            },
+            {
+                aclCode: 'oms_lite_order_failed_reason',
+                key: 'pybMeta',
+                label: t('menu:PYB_Meta'),
+                url: '/configurations/pybmeta',
+            },
         ],
     },
 ];
